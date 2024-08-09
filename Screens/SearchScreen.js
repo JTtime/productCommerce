@@ -14,7 +14,7 @@ const SearchScreen = () => {
   return (
     <View style={styles.container}>
       <SearchBar onChange={onChange} />
-      {/* Optional: You can include SearchRecommendations here if needed */}
+     
       {!isActive && (
         <View>
           <SearchRecommendation />

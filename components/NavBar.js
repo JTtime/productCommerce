@@ -20,7 +20,7 @@ export default function MyTabs() {
       initialRouteName="Products"
       screenOptions={{
         tabBarActiveTintColor: '#e91e63',
-          headerShown: false, // Hide header for all screens by default
+          headerShown: false, 
       }}
     >
       <Tab.Screen

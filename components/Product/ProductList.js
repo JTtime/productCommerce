@@ -25,9 +25,9 @@ const ProductList = ({category,imageUri,text}) => {
 
 const styles = StyleSheet.create({
   gridContainer: {
-    flexDirection: "row", // Arrange items horizontally
-    flexWrap: "wrap", // Allow items to wrap to the next line
-    justifyContent: "space-between", // Space between columns
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
   },
 });
 

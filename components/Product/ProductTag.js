@@ -9,10 +9,10 @@ const ProductTag = ({
 }) => {
   return (
     <View style={styles.card}>
-      {/* Text Section */}
+      
       <Text style={styles.text}>{text}</Text>
 
-      {/* Image Section */}
+      
       <Image source={{ uri: imageSource }} style={styles.image} />
     </View>
   );
@@ -39,12 +39,12 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: "#000",
     fontWeight:'700',
-    marginRight: 10, // Fixed gap between text and image
+    marginRight: 10, 
   },
   image: {
-    width: 30, // Small image size
+    width: 30, 
     height: 30,
-    borderRadius: 4, // Rounded corners for the image
+    borderRadius: 4, 
   },
 });
 
